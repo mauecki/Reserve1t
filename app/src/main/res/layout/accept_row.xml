@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12sp">
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_person_outline_24" />
+
+    <TextView
+        android:id="@+id/termin_rvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/fivo_sans"
+        android:text="termin"
+        android:textColor="#6E6C6C"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/godzina_rvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/fivo_sans"
+        android:text="godzina"
+        android:textColor="#6E6C6C"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintStart_toEndOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/firma_rvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/fivo_sans"
+        android:text="nazwa"
+        android:textColor="#3C3A3A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/termin_rvv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/szczegoly_rvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="szczegóły"
+        app:layout_constraintBottom_toBottomOf="@+id/godzina_rvv"
+        app:layout_constraintStart_toStartOf="@+id/firma_rvv"
+        app:layout_constraintTop_toBottomOf="@+id/firma_rvv" />
+
+    <ImageView
+        android:id="@+id/check_rvv"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_help_outline_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

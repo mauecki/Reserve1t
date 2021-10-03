@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillColor="#F44336"
+    android:iconTint="#F44336">
+
+    <item
+        android:id="@+id/ic_firstFragment"
+        android:icon="@drawable/ic_baseline_create_24"
+        android:iconTint="#F44336"
+        android:title="Rezerwuj" />
+
+    <item
+        android:id="@+id/ic_secondFragment"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:iconTint="#F44336"
+        android:title="Plan" />
+
+    <item
+        android:id="@+id/ic_thirdFragment"
+        android:icon="@drawable/ic_baseline_store_mall_directory_24"
+        android:iconTint="#F44336"
+        android:title="Zarzadzaj" />
+
+    <item
+        android:id="@+id/ic_fourthFragment"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:iconTint="#F44336"
+        android:title="Informacje" />
+</menu>

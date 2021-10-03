@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12sp">
+
+    <TextView
+        android:id="@+id/id_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_rv"
+        app:layout_constraintStart_toEndOf="@+id/logo_rv"
+        app:layout_constraintTop_toTopOf="@+id/logo_rv" />
+
+    <TextView
+        android:id="@+id/miasto_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="miasto"
+        app:layout_constraintBottom_toBottomOf="@+id/wlasciciel_rv"
+        app:layout_constraintStart_toEndOf="@+id/wlasciciel_rv"
+        app:layout_constraintTop_toTopOf="@+id/wlasciciel_rv" />
+
+    <TextView
+        android:id="@+id/nazwa_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="#3C3A3A"
+        android:text="nazwa"
+        android:fontFamily="@font/fivo_sans"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/id_rv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wlasciciel_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:text="wlasciciel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/id_rv"
+        app:layout_constraintTop_toBottomOf="@+id/nazwa_rv"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/logo_rv"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_store_mall_directory_24" />
+
+    <TextView
+        android:id="@+id/kategoria_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="kategoria"
+        app:layout_constraintBottom_toBottomOf="@+id/miasto_rv"
+        app:layout_constraintStart_toEndOf="@+id/miasto_rv"
+        app:layout_constraintTop_toTopOf="@+id/miasto_rv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opSpinnerEntries">
+        <item>korepetycje</item>
+        <item>mechanika</item>
+        <item>fryzjerstwo</item>
+        <item>kosmetyka</item>
+        <item>konsultacje</item>
+        <item>sprzedaż</item>
+        <item>sport</item>
+        <item>zdrowie</item>
+        <item>serwis</item>
+        <item>inne</item>
+    </string-array>
+</resources>
